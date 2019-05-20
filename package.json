@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauron85/react-native-background-geolocation.git"
+    "url": "git+https://github.com/gimwee/react-native-background-geolocation.git"
   },
   "keywords": [
     "gps",
@@ -44,5 +44,8 @@
     "android": {
       "sourceDir": "./android/lib"
     }
+  },
+  "dependencies": {
+    "@mauron85/react-native-background-geolocation": "https://github.com/gimwee/react-native-background-geolocation.git"
   }
 }
