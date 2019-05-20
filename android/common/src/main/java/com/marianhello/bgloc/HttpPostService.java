@@ -1,6 +1,7 @@
 package com.marianhello.bgloc;
 
 import android.os.Build;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -59,7 +60,7 @@ public class HttpPostService {
             try {
                jsonString = json.getJSONObject(0).toString();
            } catch (Throwable e) {
-               Log.d(“Posting”, e.toString());
+               Log.d("Posting", e.toString());
            }
         }
 
