@@ -44,8 +44,5 @@
     "android": {
       "sourceDir": "./android/lib"
     }
-  },
-  "dependencies": {
-    "@mauron85/react-native-background-geolocation": "https://github.com/gimwee/react-native-background-geolocation.git"
   }
 }
